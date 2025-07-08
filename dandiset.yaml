@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,8 +11,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Rinehart, Duane (2025) Separating cognitive and motor processes in the behaving
-  mouse (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001472/draft
+citation: Rinehart, Duane; Economo, Michael N; Birnbaum, Jaclyn E; Hasnain, Munib
+  A (2025) Separating cognitive and motor processes in the behaving mouse (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001472/draft
 contributor:
 - affiliation: []
   email: duane.rinehart@gmail.com
@@ -19,6 +21,50 @@ contributor:
   name: Rinehart, Duane
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: R01NS121409
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: U19NS137920
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00her7k05
+  name: Whitehall Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ''
+  identifier: https://ror.org/01q222b25
+  name: Klingenstein Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- email: mne@bu.edu
+  identifier: 0000-0001-9893-1505
+  includeInCitation: true
+  name: Economo, Michael N
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: jackieb1@bu.edu
+  identifier: 0000-0001-6258-2294
+  includeInCitation: true
+  name: Birnbaum, Jaclyn E
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: munibh@bu.edu
+  identifier: 0009-0007-4827-6988
+  includeInCitation: true
+  name: Hasnain, Munib A
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2025-06-04T21:42:13.941803+00:00'
 description: The cognitive processes supporting complex animal behavior are closely
@@ -42,6 +88,7 @@ description: The cognitive processes supporting complex animal behavior are clos
   will be essential for developing conceptual and computational models of neural circuit
   function and evaluating the function of the cell types of which neural circuits
   are composed.
+ethicsApproval: []
 id: DANDI:001472/draft
 identifier: DANDI:001472
 license:
@@ -49,8 +96,22 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001472/versions/draft/assets/
 name: Separating cognitive and motor processes in the behaving mouse
+relatedResource:
+- name: 'Article: Separating cognitive and motor processes in the behaving mouse'
+  relation: dcite:IsSourceOf
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41593-024-01859-1
+- name: Code respository
+  relation: dcite:IsPartOf
+  repository: Zenodo
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://doi.org/10.5281/zenodo.13941414
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001472/draft
 version: draft
+wasGeneratedBy: []
